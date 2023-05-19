@@ -43,6 +43,28 @@
 - Ansible.
 
 *Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
+```
+yaha@yahawork:~$ vboxmanage --version
+6.1.38_Ubuntur153438
+yaha@yahawork:~$ 
+yaha@yahawork:~$ vagrant --version
+Vagrant 2.2.19
+yaha@yahawork:~$
+yaha@yahawork:~$ terraform --version
+Terraform v1.4.6
+on linux_386
+yaha@yahawork:~$
+yaha@yahawork:~$ ansible --version
+ansible 2.10.8
+  config file = None
+  configured module search path = ['/home/yaha/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0]
+yaha@yahawork:~$
+
+```
+
 
 ## Задача 4 
 
